@@ -8,7 +8,8 @@ namespace Module2_HW4
 {
     internal class WorkHorse : HorseDefault
     {
-        public WorkHorse(string name, int weight, int speed, MovementType.MovementOption movOption, int horseshoeSize, bool isDomestic) : base(name, weight, speed, movOption, horseshoeSize, isDomestic)
+        public WorkHorse(string name, int weight, int speed, MovementType.MovementOption movOption, int horseshoeSize, bool isDomestic)
+            : base(name, weight, speed, movOption, horseshoeSize, isDomestic)
         {
         }
 

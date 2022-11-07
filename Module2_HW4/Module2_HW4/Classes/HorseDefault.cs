@@ -8,7 +8,8 @@ namespace Module2_HW4
 {
     public class HorseDefault : HorseGeneral
     {
-        public HorseDefault(string name, int weight, int speed, MovementType.MovementOption movOption, int horseshoeSize, bool isDomestic) : base(name, weight, speed, movOption, horseshoeSize)
+        public HorseDefault(string name, int weight, int speed, MovementType.MovementOption movOption, int horseshoeSize, bool isDomestic)
+            : base(name, weight, speed, movOption, horseshoeSize)
         {
             IsDomestic = isDomestic;
         }
